@@ -175,7 +175,7 @@ export function GradientPicker({
                 wallpapers
               </Link>
               <br />
-              <div className='mt-1 text-[10px]'>
+              <div className='text-[10px]'>
                 App dev? Refer <Link
                   href="https://gradient.page/affiliate"
                   className="font-bold hover:underline"
