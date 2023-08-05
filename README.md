@@ -12,13 +12,7 @@ For code, examples and usage, see https://gradient.page/picker
 - [Gradients](https://gradient.page/css/ui-gradients)
 - [Background](https://gradient.page/wallpapers) images
 
-- Shadcn UI
-- Next.js 13 App Directory
-- Radix UI Primitives
-- Tailwind CSS
-- Icons from [Lucide](https://lucide.dev)
-- Dark mode with `next-themes`
-- Tailwind CSS class sorting, merging and linting.
+- Made with [Shadcn UI](https://github.com/shadcn-ui/ui)
 
 ## License
 
