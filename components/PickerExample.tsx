@@ -18,7 +18,7 @@ export function PickerExample() {
 
   return (
     <div
-      className="preview flex h-full min-h-[350px] w-full items-center justify-center rounded !bg-cover !bg-center p-10"
+      className="preview flex h-full min-h-[350px] w-full items-center justify-center rounded !bg-cover !bg-center p-10 transition-all"
       style={{ background }}
     >
       <GradientPicker background={background} setBackground={setBackground} />
@@ -75,7 +75,7 @@ export function GradientPicker({
           <div className="flex w-full items-center gap-2">
             {background ? (
               <div
-                className="h-4 w-4 rounded !bg-cover !bg-center"
+                className="h-4 w-4 rounded !bg-cover !bg-center transition-all"
                 style={{ background }}
               ></div>
             ) : (
@@ -183,7 +183,7 @@ const GradientButton = ({
 }) => {
   return (
     <div
-      className="relative rounded-md !bg-cover !bg-center p-0.5"
+      className="relative rounded-md !bg-cover !bg-center p-0.5 transition-all"
       style={{ background }}
     >
       <div className="rounded-md bg-popover/80 p-1 text-center text-xs text-primary">
