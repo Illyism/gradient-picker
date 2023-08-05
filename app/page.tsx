@@ -10,7 +10,7 @@ export default function IndexPage() {
       <div className="flex max-w-[980px] flex-col items-start gap-2">
         <h1 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">
           Fancy Gradient Picker <br className="hidden sm:inline" />
-          built with Shadcn / Radix UI / Tailwind CSS.
+          built with Shadcn UI, Radix UI and Tailwind CSS.
         </h1>
         <p className="max-w-[700px] text-lg text-muted-foreground">
           Accessible and customizable <b>gradient color picker</b> component that you can copy and paste

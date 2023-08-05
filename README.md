@@ -1,15 +1,18 @@
-# next-template
+# Gradient Pickr
 
-A Next.js 13 template for building apps with Radix UI and Tailwind CSS.
+Fancy Gradient Picker built with Shadcn UI, Radix UI and Tailwind CSS.
 
 ## Usage
 
-```bash
-npx create-next-app -e https://github.com/shadcn/next-template
-```
+For code, examples and usage, see https://gradient.page/picker
 
 ## Features
 
+- Solid colors
+- [Gradients](https://gradient.page/css/ui-gradients)
+- [Background](https://gradient.page/wallpapers) images
+
+- Shadcn UI
 - Next.js 13 App Directory
 - Radix UI Primitives
 - Tailwind CSS
@@ -19,4 +22,6 @@ npx create-next-app -e https://github.com/shadcn/next-template
 
 ## License
 
-Licensed under the [MIT license](https://github.com/shadcn/ui/blob/main/LICENSE.md).
+All the code is licensed under the the [MIT License](https://gradient.page/license).
+
+Background images are ©️ GradientPage and can solely be used for non-commercial purposes unless a commercial license is purchased on [GradientPage](https://gradient.page).
