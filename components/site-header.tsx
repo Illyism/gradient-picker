@@ -24,7 +24,7 @@ export function SiteHeader() {
                 className="bg-gradient-to-r from-[#D70652] to-[#FF025E] font-bold text-white "
               >
                 <Gift className="mr-2 h-5 w-5" />
-                Earn 20%
+                Earn 50%
               </Button>
             </Link>
             <Link
