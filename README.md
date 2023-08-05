@@ -1,10 +1,15 @@
-# Gradient Pickr
+# Gradient Picker
 
-Fancy Gradient Picker built with Shadcn UI, Radix UI and Tailwind CSS.
+<a style="text-align:center;" href="https://gradientpicker.vercel.app/">
+  <img width="1042" alt="image" src="https://github.com/Illyism/gradient-picker/assets/304283/7f47d752-a273-4a2e-bcc0-82865df7672a">
+</a>
+
+Fancy [Gradient Picker](https://gradientpicker.vercel.app/) built with Shadcn UI, Radix UI and Tailwind CSS.
 
 ## Usage
 
-For code, examples and usage, see https://gradient.page/picker
+- **Live example**: https://gradientpicker.vercel.app/
+- **Code and documentation**: https://gradient.page/picker
 
 ## Features
 
