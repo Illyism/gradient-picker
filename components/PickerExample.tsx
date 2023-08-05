@@ -11,7 +11,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { cn } from '@/lib/utils'
 import { Paintbrush } from 'lucide-react'
 import Link from 'next/link'
-import { useState } from 'react'
+import { useMemo, useState } from 'react'
 
 export function PickerExample() {
   const [background, setBackground] = useState('linear-gradient(to bottom right,#ff75c3,#ffa647,#ffe83f,#9fff5b,#70e2ff,#cd93ff)')
@@ -29,9 +29,11 @@ export function PickerExample() {
 export function GradientPicker({
   background,
   setBackground,
+  className,
 }: {
   background: string
   setBackground: (background: string) => void
+  className?: string
 }) {
   const solids = [
     '#E2E2E2',
@@ -62,6 +64,12 @@ export function GradientPicker({
     'url(https://images.unsplash.com/photo-1691200534545-288e4f566b53?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2532&q=90)',
   ]
 
+  const defaultTab = useMemo(() => {
+    if (background.includes('url')) return 'image'
+    if (background.includes('gradient')) return 'gradient'
+    return 'solid'
+  }, [background])
+
   return (
     <Popover>
       <PopoverTrigger asChild>
@@ -69,7 +77,8 @@ export function GradientPicker({
           variant={'outline'}
           className={cn(
             'w-[220px] justify-start text-left font-normal',
-            !background && 'text-muted-foreground'
+            !background && 'text-muted-foreground',
+            className
           )}
         >
           <div className="flex w-full items-center gap-2">
@@ -88,7 +97,7 @@ export function GradientPicker({
         </Button>
       </PopoverTrigger>
       <PopoverContent className="w-64">
-        <Tabs defaultValue="gradient" className="w-full">
+        <Tabs defaultValue={defaultTab} className="w-full">
           <TabsList className="mb-4 w-full">
             <TabsTrigger className="flex-1" value="solid">
               Solid
@@ -186,7 +195,7 @@ const GradientButton = ({
       className="relative rounded-md !bg-cover !bg-center p-0.5 transition-all"
       style={{ background }}
     >
-      <div className="rounded-md bg-popover/80 p-1 text-center text-xs text-primary">
+      <div className="rounded-md bg-popover/80 p-1 text-center text-xs">
         {children}
       </div>
     </div>
