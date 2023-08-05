@@ -186,8 +186,6 @@ export function GradientPicker({
               </div>
             </GradientButton>
           </TabsContent>
-
-          <TabsContent value="password">Change your password here.</TabsContent>
         </Tabs>
 
         <Input
