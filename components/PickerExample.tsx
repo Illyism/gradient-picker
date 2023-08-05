@@ -149,13 +149,13 @@ export function GradientPicker({
             </div>
 
             <GradientButton background={background}>
-              🎁 Get HD premium{' '}
+              🎁 Get abstract{' '}
               <Link
                 href="https://gradient.page/wallpapers"
                 className="font-bold hover:underline"
                 target="_blank"
               >
-                backgrounds
+                wallpapers
               </Link>
             </GradientButton>
           </TabsContent>
