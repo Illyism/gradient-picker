@@ -14,7 +14,7 @@ import Link from 'next/link'
 import { useState } from 'react'
 
 export function PickerExample() {
-  const [background, setBackground] = useState('#B4D455')
+  const [background, setBackground] = useState('linear-gradient(to bottom right,#ff75c3,#ffa647,#ffe83f,#9fff5b,#70e2ff,#cd93ff)')
 
   return (
     <div
@@ -88,7 +88,7 @@ export function GradientPicker({
         </Button>
       </PopoverTrigger>
       <PopoverContent className="w-64">
-        <Tabs defaultValue="solid" className="w-full">
+        <Tabs defaultValue="gradient" className="w-full">
           <TabsList className="mb-4 w-full">
             <TabsTrigger className="flex-1" value="solid">
               Solid
