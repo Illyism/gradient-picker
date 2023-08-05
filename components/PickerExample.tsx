@@ -166,7 +166,7 @@ export function GradientPicker({
             </div>
 
             <GradientButton background={background}>
-              🎁 Get abstract{' '}
+              🔓 Get more{' '}
               <Link
                 href="https://gradient.page/wallpapers"
                 className="font-bold hover:underline"
@@ -174,6 +174,16 @@ export function GradientPicker({
               >
                 wallpapers
               </Link>
+              <br />
+              <div className='mt-1 text-[10px]'>
+                App dev? Refer <Link
+                  href="https://gradient.page/affiliate"
+                  className="font-bold hover:underline"
+                  target="_blank"
+                >
+                  GradientPage
+                </Link>, get 20%
+              </div>
             </GradientButton>
           </TabsContent>
 
