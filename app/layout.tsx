@@ -1,19 +1,20 @@
 import "@/styles/globals.css"
 import { Metadata } from "next"
 
-import { siteConfig } from "@/config/site"
-import { fontSans } from "@/lib/fonts"
-import { cn } from "@/lib/utils"
 import { SiteHeader } from "@/components/site-header"
 import { TailwindIndicator } from "@/components/tailwind-indicator"
 import { ThemeProvider } from "@/components/theme-provider"
+import { fontSans } from "@/lib/fonts"
+import { cn } from "@/lib/utils"
 
+const title = 'Color Gradient Picker built with Shadcn UI, Radix UI and Tailwind CSS'
+const description = 'Accessible and customizable gradient color picker component. Free. Open Source. Next.js 13 Ready.'
+const url = 'https://gradientpicker.vercel.app'
 export const metadata: Metadata = {
-  title: {
-    default: siteConfig.name,
-    template: `%s - ${siteConfig.name}`,
-  },
-  description: siteConfig.description,
+  title,
+  description,
+  metadataBase: new URL(url),
+  applicationName: 'Gradient Picker',
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "white" },
     { media: "(prefers-color-scheme: dark)", color: "black" },
@@ -23,13 +24,35 @@ export const metadata: Metadata = {
     shortcut: "/favicon-16x16.png",
     apple: "/apple-touch-icon.png",
   },
+  robots: 'max-image-preview:standard',
+  openGraph: {
+    type: "website",
+    url,
+    title,
+    description,
+    siteName: 'Gradient Picker',
+    images: [{
+      url: `${url}/social.jpg`,
+      width: 1200,
+      height: 600,
+      alt: title,
+    }],
+  },
+  twitter: {
+    title,
+    description,
+    card: 'summary_large_image',
+    creator: '@illyism',
+    images: [{
+      url: `${url}/social.jpg`,
+      width: 1200,
+      height: 600,
+      alt: title,
+    }],
+  },
 }
 
-interface RootLayoutProps {
-  children: React.ReactNode
-}
-
-export default function RootLayout({ children }: RootLayoutProps) {
+export default function RootLayout({ children }: any) {
   return (
     <>
       <html lang="en" suppressHydrationWarning>
