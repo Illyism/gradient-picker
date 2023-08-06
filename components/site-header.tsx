@@ -23,7 +23,7 @@ export function SiteHeader() {
                 size="sm"
                 className="bg-gradient-to-r from-[#D70652] to-[#FF025E] font-bold text-white "
               >
-                <Gift className="mr-2 h-5 w-5" />
+                <Gift className="mr-2 hidden h-5 w-5 sm:inline-block" />
                 Earn 50%
               </Button>
             </Link>
