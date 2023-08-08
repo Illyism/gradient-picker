@@ -24,6 +24,7 @@ Use the free samples provided by GradientPage in your app, sign up for our [affi
 - [Background](https://gradient.page/wallpapers) images
 
 - Made with [Shadcn UI](https://github.com/shadcn-ui/ui)
+- Use it to get color themes for Shadcn UI: https://gradient.page/hex/FCD917
 
 ## License
 
