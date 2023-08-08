@@ -11,11 +11,11 @@ Fancy [Gradient Picker](https://gradientpicker.vercel.app/) built with Shadcn UI
 - **Live example**: https://gradientpicker.vercel.app/
 - **Code and documentation**: https://gradient.page/picker
 
-## Earn 50%
+## Earn 80%
 
 **✨ App developer? Use our free samples!**
 
-Use the free samples provided by GradientPage in your app, sign up for our [affiliate program](https://gradient.page/affiliate) and you can use our samples commercially, then add a link to our premium wallpapers in your app! For every sale, you will get **50% commission**!
+Use the free samples provided by GradientPage in your app, sign up for our [affiliate program](https://gradient.page/affiliate) and you can use our samples commercially, then add a link to our premium wallpapers in your app! For every sale, you will get **80% commission** or up to **$60 per customer**!
 
 ## Features
 

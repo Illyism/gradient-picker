@@ -182,7 +182,7 @@ export function GradientPicker({
                   target="_blank"
                 >
                   GradientPage
-                </Link>, get 50%
+                </Link>, get 80%
               </div>
             </GradientButton>
           </TabsContent>
