@@ -22,9 +22,11 @@ Use the free samples provided by GradientPage in your app, sign up for our [affi
 - Solid colors
 - [Gradients](https://gradient.page/css/ui-gradients)
 - [Background](https://gradient.page/wallpapers) images
-
 - Made with [Shadcn UI](https://github.com/shadcn-ui/ui)
+
+## Examples
 - Use it to get color themes for Shadcn UI: https://gradient.page/hex/FCD917
+- [Stripe Fake Payment Notification Generator](https://gradient.page/tools/stripe-fake-payment-notification-generator)
 
 ## License
 
