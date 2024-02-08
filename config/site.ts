@@ -11,7 +11,7 @@ export const siteConfig = {
     },
   ],
   links: {
-    twitter: "https://twitter.com/illyism",
+    twitter: "https://il.ly",
     github: "https://github.com/illyism/gradient-picker",
     docs: "https://gradient.page/picker",
   },
